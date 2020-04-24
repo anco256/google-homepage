@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html >
+    <head>
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <title>Google</title>
+        <style>
+
+            .searchbar{
+                background-image: url('images/magn.png');
+                background-repeat: no-repeat;
+                background-position: left;
+                background-size: 30px;   
+                border-radius: 25px;
+                font-size: 35px;
+            }         
+            .topnav {
+              text-align: right;
+              }
+            
+            #d2 {
+              text-align: center;
+            }
+            .navleft {
+              position: fixed;
+              bottom: 0%;
+              left: 0%;
+              padding: 1%;
+              text-align: left;
+              width: 100%;
+              
+            }
+            .footer {
+              position: fixed;
+              bottom: 0%;
+              right: 0%;
+              padding: 1%;
+              text-align: right;
+              width: 100%;
+              background-color:rgb(231, 228, 228);
+              border-top: 1px solid rgb(184, 182, 182);     
+            }
+
+            #btn1 {
+              color: white;
+              background-color: #4285F4;
+              background-image: url('images/magn.svg');
+              padding: 0.5%;
+              margin: 0.5%;
+              border: 0px;
+            }
+            .locater{
+              position: fixed;
+              bottom: 5%;
+              left: 0%;
+              padding: 0.8%;
+              padding-left: 2%;
+              padding-top: 0%;
+              text-align: left;
+              width: 100%;
+              background-color: rgb(231, 228, 228);
+              border-top: 1px solid rgb(184, 182, 182);
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="topnav" id="topnav">
+            <a href="" style="text-decoration: none; padding: 10px; color: black;">Gmail</a>
+            <a href="" style="text-decoration: none; padding: 10px; color: black;" >Images</a>
+            <input type="button" value="Sign in" id="btn1">
+        </div>
+        <br/><br/><br/>
+        <div id="d2">
+            <nav>
+                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google_img">
+                <br/><br/>
+                <input type="text" class="searchbar" > <br/><br/>
+                <input type="button" value="Google Search">
+                <input type="button" value="I'm Feeling Lucky">
+            </nav>
+            <br/> <br/>
+            <nav class="nvlang">
+                Google offered in:
+                <span class="linked">
+                    <a href="">Luganda</a>
+                    <a href="">Swahili</a>
+                    <a href="">Runyakitara</a>
+                    <a href="">Luo</a>
+                    <a href="">Ikinyarwanda</a>
+                </span>                
+            </nav>
+
+        </div>
+        <div class="locater">
+            <p style="color: rgb(77, 77, 77);" > *Your country* </p>
+        </div>
+        <br/>
+        <div class="footer" id="footer">
+            <nav class="navleft">
+                <a href="" style="text-decoration: none; padding: 10px; color: rgb(77, 77, 77);">Advertising</a>
+                <a href=""style="text-decoration: none; padding: 10px; color: rgb(77, 77, 77);">Business</a>
+                <a href="" style="text-decoration: none; padding: 10px; color: rgb(77, 77, 77);">About</a>
+                <a href="" style="text-decoration: none; padding: 10px; color: rgb(77, 77, 77);">How Search Works</a>
+            </nav>            
+            <nav class="navright">
+                <a href="" style="text-decoration: none; padding: 10px; color: rgb(77, 77, 77);">Privacy</a>
+                <a href="" style="text-decoration: none; padding: 10px; color: rgb(77, 77, 77);">Terms</a>
+                <a href="" style="text-decoration: none; padding: 10px; color: rgb(77, 77, 77);" >Settings</a>
+            </nav>
+                
+        </div>
+                        
+    </body>
+</html>
